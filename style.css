@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 100px;
+  height: 100px;
+}
+
+.card1{
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+}
+
+.card2{
+  background-color: blue;
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+}
